@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListMatches"
+    android:orientation="vertical">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/replay"
+            android:background="@color/Pinkish"
+            android:elevation="6dp"
+            app:fabCustomSize="50dp"
+
+
+
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="620dp"
+            android:src="@drawable/share"
+            android:background="@color/Pinkish"
+            android:foregroundGravity="center"
+            app:fabCustomSize="50dp"
+
+
+
+            />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/listToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       app:title="Matched Movies:"
+        app:titleTextColor="#fff"
+        android:background="@color/Black"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/double_check"
+            android:background="@color/Black"
+            android:foregroundGravity="right"
+            android:layout_marginLeft="180dp"
+
+
+            />
+        <TextView
+            android:id="@+id/matchCount"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/matchList"
+
+        >
+    </ListView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

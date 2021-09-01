@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie_Tinder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_start_page">startPage</string>
+    <string name="tab_text_1">Play</string>
+    <string name="tab_text_2">Friends</string>
+    <string name="HELP">
+        -IMPORTANT: This is a still developing app so it does not work smoothly as the others we advise you to follow the following steps:
+
+        -In order to play you have to invite a friend by his exact username or you can select from your friends list.
+        -There are no invite acception option so you have to invite eachother seperately and play your game.
+        -You will be able to see the list after you are both finished so be sure both of you have finished the list.
+        -You will know the list that we gave you ended after the like or dislike buttons dissappear and a button on middle appears.
+        -Other than theese the app is pretty self explained so have fun :)
+        -KNOWN BUGS:
+            -Sometimes one players list doesnt appear because of the database, not that there is anything wrong with it but the data doesnt gets to the app.
+        </string>
+</resources>

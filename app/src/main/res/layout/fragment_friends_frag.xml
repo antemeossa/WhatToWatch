@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Friends_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_back_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/back_arrow"
+        android:background="@color/Pinkish"
+        android:elevation="6dp"
+        app:fabCustomSize="50dp"
+
+
+
+        />
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/listToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:title="Friends:"
+                app:titleTextColor="#fff"
+                android:background="@color/Black"
+                >
+                <TextView
+                    android:id="@+id/friendCount"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+            </androidx.appcompat.widget.Toolbar>
+        </RelativeLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friendList">
+
+        </ListView>
+
+    </LinearLayout>
+
+</FrameLayout>

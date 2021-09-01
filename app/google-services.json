@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211665787818",
+    "firebase_url": "https://movie-tinder-2-default-rtdb.firebaseio.com",
+    "project_id": "movie-tinder-2",
+    "storage_bucket": "movie-tinder-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211665787818:android:89b8328de35014b168a9d3",
+        "android_client_info": {
+          "package_name": "com.example.movie_tinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211665787818-ct9fh0iqehpq3pvtb2mgdgtrobn8l6gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movie_tinder",
+            "certificate_hash": "65284c6e9f4279338888d5ce17b379996cb2da47"
+          }
+        },
+        {
+          "client_id": "211665787818-8ndcs16ap51pfvihq8349rn019762bi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE8LzybfqAP0QilveC672_b_xqs1AH4OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211665787818-8ndcs16ap51pfvihq8349rn019762bi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

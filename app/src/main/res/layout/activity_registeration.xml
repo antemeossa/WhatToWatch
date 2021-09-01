@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.movie_tinder.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/Gray"
+
+    >
+    <EditText
+        android:layout_marginTop="30dp"
+        android:background="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:id="@+id/username"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/password"/>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:background="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/maleBtnId"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/femaleBtnId"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"
+        android:background="@drawable/custom_button_1"/>
+    <Button
+        android:background="@drawable/custom_button_2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backbtn"/>
+
+</LinearLayout>

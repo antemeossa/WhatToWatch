@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/listImagePoster"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:src="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/txtMovieHeader"
+        android:layout_toRightOf="@+id/listImagePoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        style="@style/TextAppearance.AppCompat.Title"/>
+    <TextView
+        android:id="@+id/txtMovieYear"
+        android:layout_toRightOf="@+id/listImagePoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="subTitle"
+        android:layout_below="@id/txtMovieHeader"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"/>
+
+</RelativeLayout>
